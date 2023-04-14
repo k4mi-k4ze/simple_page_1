@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Mulish;
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Noto Sans Arabic;
+    src: url(fonts/NotoSansArabic-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Oxygen;
+    src: url(fonts/Oxygen-Regular.ttf);
+}
+@media only screen and (max-device-width: 1366px) {
+.img-main {
+    width: 500px !important;
+    height: auto !important;
+    margin-top: 70px !important;
+}
+.img-logo {
+    padding-left: 110px !important;
+}
+nav {
+    padding-right: 110px !important;
+}
+main {
+    padding-left: 121px !important;
+    padding-right: 110px !important;
+}
+p {
+    width: 570px !important;
+}
+button {
+    font-size: 36px;
+    width: 200px !important;
+    height: 75px !important;
+    margin-top: 1vh;
+}
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #E5E5E5;;
+}
+.img-logo {
+    padding-left: 10vw;
+    padding-top: 3vh;
+}
+nav {
+    float: right;
+    padding-right: 10vw;
+    padding-top: 3vh;
+}
+a:link, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link:active, a:visited:active {
+    text-decoration: none;
+    cursor: default;
+}
+.home {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 1vw;
+}
+.about {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 1vw;
+}
+.contact {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 1vw;
+}
+.gallery {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 1vw;
+}
+.services {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 12vh;
+}
+h1 {
+    font-family: 'Noto Sans Arabic';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 63px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 35vw;
+}
+p {
+    font-family: 'Noto Sans Arabic';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 51px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 29vw;
+}
+button {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: rgba(85, 85, 255, 0.81);
+    border: none;
+    width: 11vw;
+    height: 7.5vh;
+    margin-top: 1vh;
+}
+.join-now {
+    color: #FFFFFF;
+}
+.img-main {
+    width: 40vw;
+    height: auto;
+    margin-top: 3vh;
+}
